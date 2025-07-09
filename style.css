@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  background: #1c1c1c;
+  font-family: Arial, sans-serif;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 10px;
+}
+
+.tool {
+  color: white;
+  margin: 0 20px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.tool i {
+  font-size: 24px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.tool span {
+  display: block;
+}
+
+.notification {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  background: red;
+  color: white;
+  border-radius: 50%;
+  font-size: 12px;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  line-height: 16px;
+}
+
+.green-icon {
+  color: #00ff00;
+}
+
+.pink-icon {
+  color: #f06292;
+}
